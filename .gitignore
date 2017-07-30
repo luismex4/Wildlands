@@ -73,3 +73,14 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+FuckYea/Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+FuckYea/Saved/Config/Windows/Compat.ini
+FuckYea/Saved/Config/Windows/DeviceProfiles.ini
+FuckYea/Saved/Config/Windows/Editor.ini
+FuckYea/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+FuckYea/Saved/Config/Windows/Engine.ini
+FuckYea/Saved/Config/Windows/Game.ini
+FuckYea/Saved/Config/Windows/GameUserSettings.ini
+*.ini
+FuckYea/Saved/Logs/FuckYea.log
+FuckYea/Config/DefaultEditor.ini
