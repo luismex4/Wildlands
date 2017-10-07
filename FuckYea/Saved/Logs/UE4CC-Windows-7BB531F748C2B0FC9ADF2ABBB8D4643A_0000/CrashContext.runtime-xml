@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-7BB531F748C2B0FC9ADF2ABBB8D4643A_0000</CrashGUID>
+		<ProcessId>3556</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>1466</SecondsSinceStart>
+		<GameName>UE4-FuckYea</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.2-3416026+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;C:\Users\Lui\Desktop\Wildlands_Repo\Wildlands\FuckYea\FuckYea.uproject&quot;</CommandLine>
+		<LanguageLCID>1033</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3416026</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Lui</UserName>
+		<BaseDir>D:/EpicGames/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/EpicGames/UE_4.15/</RootDir>
+		<MachineId>DB55B6ED4B2414568A1B9798DA1445EA</MachineId>
+		<LoginId>db55b6ed4b2414568a1b9798da1445ea</LoginId>
+		<EpicAccountId>de4e6599bd2b4462ba0031880be9448a</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewportsOverlay</UserActivityHint>
+		<ErrorMessage>Assertion failed: SelectedInstances.IsValidIndex(InInstanceIndex) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\InstancedStaticMesh.cpp] [Line: 1974] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>AMD FirePro M4000</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>12813127680</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>12</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>6107033600</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140733900722176</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1456951296</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1657958400</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2406227968</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2468450304</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636430140160230000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

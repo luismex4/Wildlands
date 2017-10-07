@@ -1,10 +1,10 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 8/10/2017, 14:41:29
+      Time of this report: 9/17/2017, 20:09:39
              Machine name: DESKTOP-HHR1P68
                Machine Id: {4BCC7642-CCB3-41DE-BCFB-2099DEDF45A4}
-         Operating System: Windows 10 Pro 64-bit (10.0, Build 14393) (14393.rs1_release.170706-2004)
+         Operating System: Windows 10 Pro 64-bit (10.0, Build 14393) (14393.rs1_release.170731-1934)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
              System Model: HP EliteBook 8770w
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz (8 CPUs), ~2.4GHz
                    Memory: 12288MB RAM
       Available OS Memory: 12220MB RAM
-                Page File: 5383MB used, 8692MB available
+                Page File: 4922MB used, 9153MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -282,36 +282,36 @@ PS/2 Devices
 | Matching Device ID: acpi\syn018d
 | Upper Filters: SynTP
 | Service: i8042prt
-| Driver: SynTP.sys, 7/3/2015 01:52:12, 614088 bytes
-| Driver: Smb_driver_Intel_Aux.sys, 7/3/2015 01:52:12, 42696 bytes
-| Driver: Smb_driver_AMDASF_Aux.sys, 7/3/2015 01:52:12, 42184 bytes
-| Driver: SynTPAPI.dll, 7/3/2015 01:52:12, 269000 bytes
-| Driver: SynCOM.dll, 7/3/2015 01:52:12, 764616 bytes
+| Driver: SynTP.sys, 9/6/2017 06:09:34, 640216 bytes
+| Driver: Smb_driver_Intel_Aux.sys, 9/6/2017 06:09:30, 51936 bytes
+| Driver: Smb_driver_AMDASF_Aux.sys, 9/6/2017 06:09:30, 51424 bytes
+| Driver: SynRMIHID_Aux.sys, 9/6/2017 06:09:34, 66776 bytes
+| Driver: SynTPAPI.dll, 9/6/2017 06:09:34, 278240 bytes
+| Driver: SynCOM.dll, 9/6/2017 06:09:30, 779480 bytes
 | Driver: pca-manta.bin, 7/3/2015 01:22:02, 231456 bytes
 | Driver: calibration.bin, 7/3/2015 01:21:58, 92 bytes
-| Driver: SynTPRes.dll, 7/3/2015 01:52:14, 19198664 bytes
-| Driver: SynTPCpl.dll, 7/3/2015 01:52:12, 3921096 bytes
-| Driver: SynCntxt.rtf, 7/3/2015 01:22:14, 12597669 bytes
-| Driver: SynZMetr.exe, 7/3/2015 01:52:12, 1887944 bytes
-| Driver: SynMood.exe, 7/3/2015 01:52:12, 1910984 bytes
-| Driver: SynTPEnh.exe, 7/3/2015 01:52:12, 3944136 bytes
-| Driver: Tutorial.exe, 7/3/2015 01:52:12, 1899208 bytes
-| Driver: InstNT.exe, 7/3/2015 01:52:12, 305864 bytes
-| Driver: SynISDLL.dll, 7/3/2015 01:52:12, 339144 bytes
-| Driver: SynUnst.ini, 7/3/2015 01:22:34, 1470245 bytes
+| Driver: SynTPRes.dll, 9/6/2017 06:09:38, 19213528 bytes
+| Driver: SynTPCpl.dll, 9/6/2017 06:09:36, 3945688 bytes
+| Driver: SynCntxt.rtf, 8/16/2017 18:58:40, 12658407 bytes
+| Driver: SynZMetr.exe, 9/6/2017 06:09:38, 1897184 bytes
+| Driver: SynMood.exe, 9/6/2017 06:09:34, 1920736 bytes
+| Driver: SynTPEnh.exe, 9/6/2017 06:09:36, 3966168 bytes
+| Driver: Tutorial.exe, 9/6/2017 06:09:38, 1908448 bytes
+| Driver: InstNT.exe, 9/6/2017 06:09:28, 328408 bytes
+| Driver: SynISDLL.dll, 9/6/2017 06:09:32, 358112 bytes
+| Driver: SynUnst.ini, 8/16/2017 18:40:02, 1867677 bytes
 | Driver: SynRemoveUserSettings.dat, 7/3/2015 01:22:24, 1315 bytes
-| Driver: SynTPHelper.exe, 7/3/2015 01:52:14, 210120 bytes
-| Driver: SynTPEnhService.exe, 7/3/2015 01:52:12, 246472 bytes
-| Driver: SynReflash.exe, 7/3/2015 01:52:12, 1337032 bytes
+| Driver: SynTPHelper.exe, 9/6/2017 06:09:38, 219360 bytes
+| Driver: SynTPEnhService.exe, 9/6/2017 06:09:36, 256224 bytes
 | Driver: StaticImg.html, 7/3/2015 01:22:02, 968 bytes
 | Driver: StaticImg.png, 7/3/2015 01:22:02, 107143 bytes
-| Driver: SynSysDetect.js, 7/3/2015 01:22:24, 1481 bytes
+| Driver: SynSysDetect.js, 6/15/2016 16:41:30, 1589 bytes
 | Driver: Syn2FingerScrolling.wmv, 7/3/2015 01:22:06, 650659 bytes
 | Driver: Syn3FingerFlick.wmv, 7/3/2015 01:22:08, 774019 bytes
 | Driver: Syn4FingerFlick.wmv, 7/3/2015 01:22:08, 795115 bytes
 | Driver: Syn4FFlickVNB.wmv, 7/3/2015 01:22:08, 717383 bytes
-| Driver: SynSmartSense.wmv, 7/3/2015 01:22:24, 370121 bytes
-| Driver: SynSmartSenseNB.wmv, 7/3/2015 01:22:24, 358939 bytes
+| Driver: SynSmartSense.wmv, 6/15/2016 16:41:30, 345343 bytes
+| Driver: SynSmartSenseNB.wmv, 6/15/2016 16:41:30, 340930 bytes
 | Driver: Syn4FingerFlickUpDown.wmv, 7/3/2015 01:22:10, 1264895 bytes
 | Driver: Syn4FingerFlickUpDownNB.wmv, 7/3/2015 01:22:10, 1222781 bytes
 | Driver: Syn4FingerFlickLeftRight.wmv, 7/3/2015 01:22:08, 1201694 bytes
@@ -454,20 +454,40 @@ PS/2 Devices
 | Driver: SynSlowMotionNB.wmv, 7/3/2015 01:22:24, 239337 bytes
 | Driver: SynConstrainedMotionNB.wmv, 7/3/2015 01:22:16, 1122071 bytes
 | Driver: SynWindowConstrainedNB.wmv, 7/3/2015 01:22:34, 239325 bytes
-| Driver: dpinst.exe, 7/3/2015 01:52:12, 1056968 bytes
-| Driver: SynSmbDrv.ini, 7/3/2015 01:22:24, 6083 bytes
+| Driver: Syn3FHSlide.wmv, 6/15/2016 16:41:18, 243720 bytes
+| Driver: Syn3FHSlideNB.wmv, 6/15/2016 16:41:18, 202757 bytes
+| Driver: Syn3FTapActionCenter.wmv, 6/15/2016 16:41:18, 108227 bytes
+| Driver: Syn3FTapActionCenterNB.wmv, 6/15/2016 16:41:18, 105076 bytes
+| Driver: Syn3FTapCortana.wmv, 6/15/2016 16:41:18, 111378 bytes
+| Driver: Syn3FTapCortanaNB.wmv, 6/15/2016 16:41:18, 108227 bytes
+| Driver: Syn4FTapActionCenter.wmv, 6/15/2016 16:41:20, 111378 bytes
+| Driver: Syn4FTapActionCenterNB.wmv, 6/15/2016 16:41:20, 108227 bytes
+| Driver: Syn4FTapCortana.wmv, 6/15/2016 16:41:20, 114529 bytes
+| Driver: Syn4FTapCortanaNB.wmv, 6/15/2016 16:41:20, 111378 bytes
+| Driver: Syn3FClickActionCenterNB.wmv, 6/15/2016 16:41:18, 139737 bytes
+| Driver: Syn3FClickCortanaNB.wmv, 6/15/2016 16:41:18, 149190 bytes
+| Driver: Syn4FClickActionCenterNB.wmv, 6/15/2016 16:41:20, 158643 bytes
+| Driver: Syn4FClickCortanaNB.wmv, 6/15/2016 16:41:20, 164945 bytes
+| Driver: Syn3FVSlide.wmv, 6/15/2016 16:41:18, 395018 bytes
+| Driver: Syn3FVSlideNB.wmv, 6/15/2016 16:41:18, 363508 bytes
+| Driver: dpinst.exe, 9/6/2017 06:09:20, 1066208 bytes
+| Driver: SynSmbDrv.ini, 8/16/2017 18:40:02, 6089 bytes
+| Driver: SynRMIHID.ini, 8/16/2017 18:40:02, 3070 bytes
+| Driver: hidemi.ini, 8/21/2015 09:30:08, 2667 bytes
+| Driver: mchpemi.ini, 8/21/2015 09:30:08, 1994 bytes
+| Driver: SynHidMini.ini, 8/16/2017 18:39:56, 5873 bytes
 | Driver: ButtonClick.wav, 7/3/2015 01:21:58, 484 bytes
 | Driver: ButtonRelease.wav, 7/3/2015 01:21:58, 356 bytes
 | Driver: ForcePad Settings.lnk, 7/3/2015 01:22:00, 2274 bytes
 | Driver: ForcePad Tutorial.lnk, 7/3/2015 01:22:00, 3199 bytes
-| Driver: SynFPT.exe, 7/3/2015 01:52:12, 118984 bytes
-| Driver: SynFPApp.exe, 7/3/2015 01:52:12, 115400 bytes
-| Driver: SynFPAppNet35.exe, 7/3/2015 01:52:12, 103624 bytes
-| Driver: WPFSynPage.dll, 7/3/2015 01:52:12, 7404744 bytes
-| Driver: WPFSynPageNet35.dll, 7/3/2015 01:52:14, 7400648 bytes
-| Driver: msvcp120.dll, 7/3/2015 01:52:12, 455880 bytes
-| Driver: msvcr120.dll, 7/3/2015 01:52:12, 971464 bytes
-| Driver: SynForcepadApp.rtf, 7/3/2015 01:22:18, 44549 bytes
+| Driver: SynFPT.exe, 9/6/2017 06:09:32, 141536 bytes
+| Driver: SynFPApp.exe, 9/6/2017 06:09:32, 124640 bytes
+| Driver: SynFPAppNet35.exe, 9/6/2017 06:09:32, 112856 bytes
+| Driver: WPFSynPage.dll, 9/6/2017 06:09:40, 7413984 bytes
+| Driver: WPFSynPageNet35.dll, 9/6/2017 06:09:40, 7409880 bytes
+| Driver: msvcp120.dll, 9/6/2017 06:09:28, 465112 bytes
+| Driver: msvcr120.dll, 9/6/2017 06:09:28, 980264 bytes
+| Driver: SynForcepadApp.rtf, 8/16/2017 17:33:58, 44770 bytes
 | Driver: SynLogo.png, 7/3/2015 01:22:20, 7343 bytes
 | Driver: Syn1FCornerClickForce.wmv, 7/3/2015 01:22:02, 50321 bytes
 | Driver: SynCornerClickForce.wmv, 7/3/2015 01:22:16, 56541 bytes
@@ -523,23 +543,23 @@ PS/2 Devices
 | Driver: ui-icons_cc0000_256x240.png, 7/3/2015 01:22:36, 4549 bytes
 | Driver: ui-icons_ffffff_256x240.png, 7/3/2015 01:22:36, 6299 bytes
 | Driver: icon_web.ico, 7/3/2015 01:22:00, 1406 bytes
-| Driver: SynCom.dll, 7/3/2015 01:52:12, 419528 bytes
+| Driver: SynCom.dll, 9/6/2017 06:09:32, 429784 bytes
 | Driver: mouclass.sys, 7/16/2016 04:41:54, 59232 bytes
 | Driver: i8042prt.sys, 7/16/2016 04:41:54, 114176 bytes
-| Driver: SynTPCo31.dll, 7/3/2015 01:52:12, 255688 bytes
-| Driver: WdfCoInstaller01011.dll, 7/3/2015 01:52:12, 1804696 bytes
+| Driver: SynTPCo35-02.dll, 9/6/2017 06:09:36, 291040 bytes
+| Driver: WdfCoInstaller01011.dll, 9/6/2017 06:09:38, 1805328 bytes
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 7.9 GB
+ Free Space: 0.7 GB
 Total Space: 88.9 GB
 File System: NTFS
       Model: MTFDDAK128MAM-1J1
 
       Drive: D:
- Free Space: 303.3 GB
+ Free Space: 322.2 GB
 Total Space: 476.9 GB
 File System: NTFS
       Model: HGST HTS725050A7E630
@@ -606,9 +626,9 @@ Device ID: PCI\VEN_197B&DEV_2360&SUBSYS_176C103C&REV_10\4&884B193&0&00E4
 
      Name: Synaptics SMBus Driver
 Device ID: PCI\VEN_8086&DEV_1E22&SUBSYS_176C103C&REV_04\3&B1BFB68&0&FB
-   Driver: C:\WINDOWS\system32\DRIVERS\Smb_driver_Intel.sys, 19.00.0012.0000 (English), 7/3/2015 01:52:12, 42696 bytes
-   Driver: C:\Program Files\Synaptics\SynTP\SynSmbDrv.ini, 7/3/2015 01:22:24, 6083 bytes
-   Driver: C:\WINDOWS\system32\WdfCoInstaller01011.dll, 1.11.9200.16384 (English), 7/3/2015 01:52:12, 1804696 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\Smb_driver_Intel.sys, 19.00.0019.0063 (English), 9/6/2017 06:09:30, 51936 bytes
+   Driver: C:\Program Files\Synaptics\SynTP\SynSmbDrv.ini, 8/16/2017 18:40:02, 6089 bytes
+   Driver: C:\WINDOWS\system32\WdfCoInstaller01011.dll, 1.11.9200.16384 (English), 9/6/2017 06:09:38, 1805328 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_197B&DEV_2392&SUBSYS_176C103C&REV_30\4&65470EF&0&01E2
@@ -793,17 +813,17 @@ Color Space Converter,0x00400001,1,1,quartz.dll,10.00.14393.1066
 WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.14393.0000
 AVI Splitter,0x00600000,1,1,quartz.dll,10.00.14393.1066
 VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.14393.1066
-SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.14393.1066
+SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.14393.1593
 Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.14393.0953
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,10.00.14393.0000
-StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.14393.1066
+StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.14393.1593
 MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.1066
 MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,10.00.14393.1066
 SAMI (CC) Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
 VBI Codec,0x00600000,1,4,VBICodec.ax,10.00.14393.0000
 MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,10.00.14393.0000
 Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,10.00.14393.0000
-SBE2FileScan,0x00200000,0,0,sbe.dll,10.00.14393.1066
+SBE2FileScan,0x00200000,0,0,sbe.dll,10.00.14393.1593
 Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,10.00.14393.0000
 Internal Script Command Renderer,0x00800001,1,0,quartz.dll,10.00.14393.1066
 MPEG Audio Decoder,0x03680001,1,1,quartz.dll,10.00.14393.1066
@@ -812,7 +832,7 @@ Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,10.00.14393.1066
 Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,10.00.14393.0000
 ACM Wrapper,0x00600000,1,1,quartz.dll,10.00.14393.1066
 Video Renderer,0x00800001,1,0,quartz.dll,10.00.14393.1066
-MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,10.00.14393.1066
+MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,10.00.14393.1593
 Line 21 Decoder,0x00600000,1,1,,
 Video Port Manager,0x00600000,2,1,quartz.dll,10.00.14393.1066
 Video Renderer,0x00400000,1,0,quartz.dll,10.00.14393.1066
@@ -830,7 +850,7 @@ SampleGrabber,0x00200000,1,1,qedit.dll,10.00.14393.1066
 Null Renderer,0x00200000,1,0,qedit.dll,10.00.14393.1066
 MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,10.00.14393.0000
 Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,10.00.14393.0206
-StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.14393.1066
+StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.14393.1593
 Smart Tee,0x00200000,1,2,qcap.dll,10.00.14393.0000
 Overlay Mixer,0x00200000,0,0,,
 AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.14393.1066
@@ -840,7 +860,7 @@ MIDI Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
 Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.14393.1066
 File stream renderer,0x00400000,1,1,quartz.dll,10.00.14393.1066
 Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,10.00.14393.0000
-StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.14393.1066
+StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.14393.1593
 AVI Mux,0x00200000,1,0,qcap.dll,10.00.14393.0000
 Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.14393.1066
 File Source (Async.),0x00400000,0,1,quartz.dll,10.00.14393.1066
@@ -877,9 +897,9 @@ Line In (IDT High Definition Audio CODEC),0x00200000,0,0,qcap.dll,10.00.14393.00
 Internal Microphone Array (IDT High Definition Audio CODEC),0x00200000,0,0,qcap.dll,10.00.14393.0000
 
 PBDA CP Filters:
-PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.1378
-PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1378
-PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1378
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.14393.1593
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1593
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.14393.1593
 
 Midi Renderers:
 Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.14393.1066
@@ -1037,23 +1057,23 @@ Audio Decoders:
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.14393.0000
   WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.14393.0000
   Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.14393.0206
-  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.14393.1378
-  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.14393.1378
+  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.14393.1593
+  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.14393.1593
   WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.14393.0000
   Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.14393.0000
   Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.14393.0000
   Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.14393.0206
   WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.14393.0000
-  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.14393.1378
-  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.14393.1378
+  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.14393.1593
+  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.14393.1593
   MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.14393.0000
   Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.14393.0000
-  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.14393.1378
+  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.14393.1593
   Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
   DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
 Audio Encoders:
   LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.14393.0479
-  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.14393.1378
+  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.14393.1593
   Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.14393.0000
   WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.14393.0000
   MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.14393.0000
@@ -1330,191 +1350,191 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 129331333617, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 128015389555, type 5
+Event Name: CbsPackageServicingFailure2
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: TiWorker.exe
-P2: 10.0.14393.693
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.14393.1561
+P2: Package_for_RollupFix
+P3: 14393.1715.1.10
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
 
 
 +++ WER1 +++:
-Fault bucket 129172804523, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket , type 0
+Event Name: CbsPackageServicingFailure2
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: maya.exe
-P2: 14.0.275.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.14393.1561
+P2: Package_for_RollupFix
+P3: 14393.1715.1.10
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
 
 
 +++ WER2 +++:
 Fault bucket , type 0
-Event Name: RADAR_PRE_LEAK_64
+Event Name: CbsPackageServicingFailure2
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Photoshop.exe
-P2: 16.0.0.88
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
+P1: 10.0.14393.1561
+P2: Package_for_RollupFix
+P3: 14393.1715.1.10
+P4: amd64
+P5: unknown
+P6: 80070490
+P7: CBS Other
+P8: Absent
+P9: Staged
+P10: WindowsUpdateAgent
 
 
 +++ WER3 +++:
-Fault bucket 129520308781, type 5
-Event Name: RADAR_LEAK_64
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
-Cab Id: 129726359434
+Cab Id: 0
 
 Problem signature:
-P1: SU18_LS-Win64-Shipping.exe
-P2: 4.15.3.0
-P3: 10.0.14393.2.0.0
-P4: 10
-P5: 3
-P6: 14
-P7: 
-P8: 
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
 
 +++ WER4 +++:
-Fault bucket 129520017000, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
-Cab Id: 129725708274
+Cab Id: 0
 
 Problem signature:
-P1: SU18_LS-Win64-Shipping.exe
-P2: 4.15.3.0
-P3: 10.0.14393.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
 
 +++ WER5 +++:
-Fault bucket 125883849507, type 5
-Event Name: Dev11NonFatalError
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: VCTIP.EXE
-P2: 14.0.23918.0
-P3: 56eb92c9
-P4: VCTIP
-P5: 14.0.23918.0
-P6: 56eb92c9
-P7: c1a
-P8: 83
-P9: System.IO.FileNotFoundException
-P10: Microsoft.VisualStudio.Telemetry
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
+P9: 
+P10: 
 
 
 +++ WER6 +++:
-Fault bucket 0xEA_IMAGE_atikmdag.sys_HP, type 0
-Event Name: BlueScreen
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
-Cab Id: 96eaae55-b5e7-4973-94be-4fc480a60181
+Cab Id: 0
 
 Problem signature:
-P1: 100000ea
-P2: ffffda83f8ae0700
-P3: 0
-P4: 0
-P5: 0
-P6: 10_0_14393
-P7: 0_0
-P8: 256_1
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
 
 +++ WER7 +++:
-Fault bucket 0xEA_IMAGE_atikmdag.sys_HP, type 0
-Event Name: BlueScreen
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
-Cab Id: 8bb79221-3cc3-4ab9-a3f0-365e92b9a65f
+Cab Id: 0
 
 Problem signature:
-P1: 100000ea
-P2: ffffe28db1d3c040
-P3: 0
-P4: 0
-P5: 0
-P6: 10_0_14393
-P7: 0_0
-P8: 256_1
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
 
 +++ WER8 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_05AC&PID_12AB&REV_0603&MI_00
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
 
 +++ WER9 +++:
-Fault bucket , type 0
-Event Name: PnPGenericDriverFound
+Fault bucket 120822646665, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: x64
-P2: USB\VID_05AC&PID_12AB&REV_0603
-P3: 
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: SynTPEnh.exe
+P2: 19.0.19.63
+P3: 5994ec5c
+P4: SynCOM.dll
+P5: 19.0.19.63
+P6: 5994ea1d
+P7: c0000005
+P8: 0000000000001a8f
 P9: 
 P10: 
 
