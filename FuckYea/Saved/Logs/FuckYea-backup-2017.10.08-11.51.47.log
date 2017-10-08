@@ -1,0 +1,1264 @@
+﻿Log file open, 10/07/17 16:31:22
+LogInit:Display: Running engine for game: FuckYea
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(190763755) SRandInit(190763755).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.186618
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/EpicGames/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.07-23.31.24:633][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-23.31.24:633][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-23.31.24:754][  0]LogInit: Computer: DESKTOP-HHR1P68
+[2017.10.07-23.31.24:754][  0]LogInit: User: Lui
+[2017.10.07-23.31.24:754][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.10.07-23.31.24:754][  0]LogInit: High frequency timer resolution =2.338451 MHz
+[2017.10.07-23.31.24:782][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.10.07-23.31.24:782][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-23.31.24:782][  0]LogMemory: Process Physical Memory: 262.59 MB used, 262.59 MB peak
+[2017.10.07-23.31.24:782][  0]LogMemory: Process Virtual Memory: 262.49 MB used, 262.49 MB peak
+[2017.10.07-23.31.24:782][  0]LogMemory: Physical Memory: 2317.87 MB used,  9901.68 MB free, 12219.55 MB total
+[2017.10.07-23.31.24:782][  0]LogMemory: Virtual Memory: 645.23 MB used,  9901.68 MB free, 134217728.00 MB total
+[2017.10.07-23.31.26:076][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.10.07-23.31.30:408][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-23.31.30:445][  0]LogD3D11RHI:    0. 'AMD FirePro M4000' (Feature Level 11_0)
+[2017.10.07-23.31.30:445][  0]LogD3D11RHI:       1002/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.07-23.31.30:447][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-23.31.30:447][  0]LogD3D11RHI:       0/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-23.31.30:447][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-23.31.30:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-23.31.30:453][  0]LogD3D11RHI:     GPU DeviceId: 0x682d (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-23.31.30:453][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-23.31.30:453][  0]LogWindows:    0. 'AMD FirePro M4000' (P:1 D:1)
+[2017.10.07-23.31.30:453][  0]LogWindows:    1. 'AMD FirePro M4000' (P:0 D:0)
+[2017.10.07-23.31.30:454][  0]LogWindows:    2. 'AMD FirePro M4000' (P:0 D:0)
+[2017.10.07-23.31.30:454][  0]LogWindows:    3. 'AMD FirePro M4000' (P:0 D:0)
+[2017.10.07-23.31.30:454][  0]LogWindows:    4. 'AMD FirePro M4000' (P:0 D:0)
+[2017.10.07-23.31.30:455][  0]LogWindows:    5. 'AMD FirePro M4000' (P:0 D:0)
+[2017.10.07-23.31.30:455][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.07-23.31.30:455][  0]LogD3D11RHI:     Adapter Name: AMD FirePro M4000
+[2017.10.07-23.31.30:455][  0]LogD3D11RHI:   Driver Version: 15.201.1301.0 (internal:15.201.1301.0, unified:15.201.1301.0)
+[2017.10.07-23.31.30:455][  0]LogD3D11RHI:      Driver Date: 8-19-2015
+[2017.10.07-23.31.30:455][  0]LogRHI: Texture pool is 701 MB (70% of 1002 MB)
+[2017.10.07-23.31.30:527][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-23.31.30:813][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.07-23.31.30:917][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Intermediate/Shaders/WorkingDirectory/6932/).
+[2017.10.07-23.31.30:917][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lui/AppData/Local/Temp/UnrealShaderWorkingDir/E8B750E74CF9891CE69550BD0CDF23C9/'.
+[2017.10.07-23.31.30:930][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-23.31.35:669][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-23.31.35:747][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-23.31.35:822][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-23.31.35:898][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-23.31.36:000][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-23.31.36:076][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-23.31.36:156][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-23.31.36:232][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-23.31.36:298][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-23.31.36:389][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-23.31.36:475][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-23.31.36:549][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-23.31.36:623][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-23.31.36:697][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-23.31.36:771][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-23.31.36:933][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-23.31.36:933][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-23.31.36:980][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-23.31.37:166][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-23.31.37:217][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-23.31.37:290][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-23.31.37:364][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-23.31.37:437][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-23.31.37:542][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-23.31.37:542][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-23.31.38:951][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache: Loaded boot cache 0.30s 60MB C:/Users/Lui/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lui/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-23.31.39:257][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-23.31.39:341][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-23.31.39:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-23.31.39:613][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-23.31.39:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-23.31.39:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-23.31.50:513][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-23.31.50:627][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-23.31.51:463][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-23.31.51:524][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-23.31.51:601][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-23.31.51:601][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-23.31.51:601][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-23.31.58:008][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: fuckyea, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3272958151
+[2017.10.07-23.31.58:163][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.10.07-23.31.58:355][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.112230 seconds
+[2017.10.07-23.31.58:369][  0]LogUObjectArray: 32494 objects as part of root set at end of initial load.
+[2017.10.07-23.31.58:369][  0]LogUObjectAllocator: 7077256 out of 0 bytes used by permanent object pool.
+[2017.10.07-23.31.58:369][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-23.31.58:468][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-23.32.13:844][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-23.32.13:906][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-23.32.15:367][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-23.32.16:434][  0]SourceControl: Info Source control is disabled
+[2017.10.07-23.32.16:447][  0]SourceControl: Info Source control is disabled
+[2017.10.07-23.32.16:538][  0]SourceControl: Info Source control is disabled
+[2017.10.07-23.32.16:598][  0]SourceControl: Info Source control is disabled
+[2017.10.07-23.32.19:618][  0]LogEngine: Initializing Engine...
+[2017.10.07-23.32.19:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.07-23.32.20:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-23.32.20:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-23.32.20:731][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-23.32.20:900][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.32.21:042][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-23.32.21:081][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Lui/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.07-23.32.21:089][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-23.32.21:261][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-23.32.21:261][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={CA02AFE2-4773-E6AC-DAE6-A4AE0199AD72}
+[2017.10.07-23.32.21:612][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-23.32.23:143][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-23.32.25:641][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-23.32.27:420][  0]LogConsoleResponse:Display: 
+[2017.10.07-23.32.30:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/' took 0.09s
+[2017.10.07-23.32.30:611][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-23.32.30:612][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-23.32.33:611][  0]SourceControl: Info Source control is disabled
+[2017.10.07-23.32.33:783][  0]Cmd: MAP LOAD FILE="C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-23.32.33:923][  0]LightingResults: New page: Lighting Build
+[2017.10.07-23.32.34:183][  0]MapCheck: New page: Map Check
+[2017.10.07-23.32.34:183][  0]LightingResults: New page: Lighting Build
+[2017.10.07-23.32.40:898][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256) - 62 MB total VRAM
+[2017.10.07-23.32.40:978][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256) - 62 MB total VRAM
+[2017.10.07-23.32.41:662][  0]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.32.42:536][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-23.32.42:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-23.32.42:692][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.062ms to complete.
+[2017.10.07-23.32.42:692][  0]LogFileHelpers: Loading map 'Wildlands' took 8.977
+[2017.10.07-23.32.45:551][  0]LogCollectionManager: Loaded 0 collections in 0.006745 seconds
+[2017.10.07-23.32.46:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/Collections/' took 0.01s
+[2017.10.07-23.32.46:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Developers/Lui/Collections/' took 0.01s
+[2017.10.07-23.32.46:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Collections/' took 0.01s
+[2017.10.07-23.32.46:073][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000015 seconds
+[2017.10.07-23.32.46:133][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 2245 classes and 453 folders.
+[2017.10.07-23.32.46:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.07-23.32.49:895][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.07-23.32.50:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.07-23.32.50:534][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-23.32.50:650][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-23.32.50:774][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.07-23.32.50:774][  0]LogLoad: (Engine Initialization) Total time: 94.23 seconds
+[2017.10.07-23.32.50:774][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.96 seconds
+[2017.10.07-23.32.50:774][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.07-23.32.50:774][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.07-23.32.51:127][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-23.32.51:301][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.07-23.32.51:407][  0]LogSlate: Took 0.048273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-23.32.51:437][  0]LogSlate: Took 0.021256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-23.32.51:497][  0]LogSlate: Took 0.023207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-23.32.52:371][  0]LogSlate: Took 0.023226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-23.32.52:486][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.10.07-23.32.52:593][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.10.07-23.32.52:953][  1]LogHttp:Warning: 0000021CD37DDA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.32.52:953][  1]LogHttp:Warning: 0000021CD37DDA80: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.10.07-23.32.52:953][  1]LogHttp:Warning: 0000021CD37DDA80: libcurl info message cache 1 (Closing connection 0)
+[2017.10.07-23.32.53:113][  2]LogHttp:Warning: 0000021CD514C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.32.53:113][  2]LogHttp:Warning: 0000021CD514C880: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.10.07-23.32.53:113][  2]LogHttp:Warning: 0000021CD514C880: libcurl info message cache 1 (Closing connection 1)
+[2017.10.07-23.32.53:331][  3]LogHttp:Warning: 0000021CD5851900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.32.53:331][  3]LogHttp:Warning: 0000021CD5851900: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.10.07-23.32.53:331][  3]LogHttp:Warning: 0000021CD5851900: libcurl info message cache 1 (Closing connection 2)
+[2017.10.07-23.32.53:971][  4]LogAssetRegistry: Asset discovery search completed in 55.8300 seconds
+[2017.10.07-23.32.53:978][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.10.07-23.32.53:978][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007390 seconds (updated 0 objects)
+[2017.10.07-23.33.51:251][712]LogHttp:Warning: 0000021CD085CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.33.51:251][712]LogHttp:Warning: 0000021CD085CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.07-23.33.51:251][712]LogHttp:Warning: 0000021CD085CD00: libcurl info message cache 1 (Closing connection 3)
+[2017.10.07-23.34.28:949][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.07-23.34.29:019][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.10.07-23.34.29:046][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.10.07-23.34.29:051][198]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128) - 109 MB total VRAM
+[2017.10.07-23.34.30:604][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.07-23.34.31:104][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.07-23.34.31:457][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.07-23.34.39:941][342]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.39:965][342]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.10.07-23.34.39:967][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:968][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:968][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:969][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:971][342]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.39:973][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:973][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:974][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:975][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:977][342]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.39:979][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:980][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:981][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:981][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:984][342]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.39:987][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:987][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:988][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:989][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:991][342]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.39:994][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:995][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:995][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:996][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.39:998][342]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.40:002][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.40:002][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.40:003][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.40:003][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.40:006][342]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 8X8) - 113 MB total VRAM
+[2017.10.07-23.34.40:008][342]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.34.48:050][511]MapCheck: New page: Map Check
+[2017.10.07-23.34.48:427][511]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.07-23.34.48:428][511]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.07-23.34.48:694][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.07-23.34.48:710][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BFBC80 with Material 0x0000021CF52A1000 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:716][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Sky, GameThreadShaderMap 0x0000021CD1BFBC80
+[2017.10.07-23.34.48:720][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.07-23.34.48:721][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BFB580 with Material 0x0000021CFCF1C400 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:724][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x0000021CD1BFB580
+[2017.10.07-23.34.48:727][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LaserPointerMaterial, compiling. 
+[2017.10.07-23.34.48:729][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BFA780 with Material 0x0000021CF523E500 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:731][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LaserPointerMaterial, GameThreadShaderMap 0x0000021CD1BFA780
+[2017.10.07-23.34.48:736][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Highlight, compiling. 
+[2017.10.07-23.34.48:737][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BF9D00 with Material 0x0000021CF523D000 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:741][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Highlight, GameThreadShaderMap 0x0000021CD1BF9D00
+[2017.10.07-23.34.48:745][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.10.07-23.34.48:746][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BF9280 with Material 0x0000021CD0878400 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:749][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000021CD1BF9280
+[2017.10.07-23.34.48:754][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_grass_basic_Inst, compiling. 
+[2017.10.07-23.34.48:757][511]LogTemp:Display: Added material ShaderMap 0x0000021CD1BF8100 with Material 0x0000021CD087AE00 to ShaderMapsBeingCompiled
+[2017.10.07-23.34.48:762][511]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_grass_basic_Inst, GameThreadShaderMap 0x0000021CD1BF8100
+[2017.10.07-23.34.49:248][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BFB580
+[2017.10.07-23.34.49:248][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x0000021CD1BFB580, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.10.07-23.34.49:248][511]LogTemp:Display: Marking material as finished 0x0000021CFCF1C400
+[2017.10.07-23.34.49:263][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BFBC80
+[2017.10.07-23.34.49:263][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Sky complete, GameThreadShaderMap 0x0000021CD1BFBC80, marking material FDebugViewModeMaterialProxy Sky as finished
+[2017.10.07-23.34.49:263][511]LogTemp:Display: Marking material as finished 0x0000021CF52A1000
+[2017.10.07-23.34.49:309][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BF9D00
+[2017.10.07-23.34.49:309][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Highlight complete, GameThreadShaderMap 0x0000021CD1BF9D00, marking material FDebugViewModeMaterialProxy M_Highlight as finished
+[2017.10.07-23.34.49:309][511]LogTemp:Display: Marking material as finished 0x0000021CF523D000
+[2017.10.07-23.34.49:337][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BFA780
+[2017.10.07-23.34.49:337][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LaserPointerMaterial complete, GameThreadShaderMap 0x0000021CD1BFA780, marking material FDebugViewModeMaterialProxy LaserPointerMaterial as finished
+[2017.10.07-23.34.49:337][511]LogTemp:Display: Marking material as finished 0x0000021CF523E500
+[2017.10.07-23.34.49:416][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BF9280
+[2017.10.07-23.34.49:416][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000021CD1BF9280, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.10.07-23.34.49:416][511]LogTemp:Display: Marking material as finished 0x0000021CD0878400
+[2017.10.07-23.34.49:505][511]LogTemp:Display: Finished compile of shader map 0x0000021CD1BF8100
+[2017.10.07-23.34.49:505][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_grass_basic_Inst complete, GameThreadShaderMap 0x0000021CD1BF8100, marking material FDebugViewModeMaterialProxy M_grass_basic_Inst as finished
+[2017.10.07-23.34.49:505][511]LogTemp:Display: Marking material as finished 0x0000021CD087AE00
+[2017.10.07-23.34.49:508][511]TextureStreamingBuild:Display: Compiling optional shaders took 0.820 seconds.
+[2017.10.07-23.34.49:575][511]LogLevel:Display: Export Material TexCoord Scales took 0.066 seconds.
+[2017.10.07-23.34.49:580][511]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.10.07-23.34.49:623][511]LightingResults: New page: Lighting Build - Oct 7, 2017, 9:34:49 AM
+[2017.10.07-23.34.49:769][511]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.07-23.34.49:904][511]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.07-23.34.49:921][511]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.07-23.34.50:949][511]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.07-23.34.50:949][511]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6932
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.07-23.34.51:710][511]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.07-23.34.51:996][511]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.07-23.34.51:996][511]MapCheck: New page: Wildlands - Oct 7, 2017, 9:34:51 AM
+[2017.10.07-23.34.52:010][511]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.10.07-23.34.52:011][511]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.34.52:103][511]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 107.304ms to complete.
+[2017.10.07-23.34.52:126][511]LogEditorBuildUtils: Build time 0:03
+[2017.10.07-23.34.52:460][514]LogHttp:Warning: 0000021CD514E680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.34.52:460][514]LogHttp:Warning: 0000021CD514E680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.07-23.34.52:460][514]LogHttp:Warning: 0000021CD514E680: libcurl info message cache 1 (Closing connection 4)
+[2017.10.07-23.34.58:463][608]LightingResults:Warning: Warning MatineeCam_SM Object has overlapping UVs.
+[2017.10.07-23.34.58:463][608]LightingResults: Info MatineeCam_SM Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.07-23.34.58:500][609]Job is a success!
+[2017.10.07-23.34.58:672][610]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-23.34.58:806][610]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128) - 113 MB total VRAM
+[2017.10.07-23.34.58:806][610]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128) - 113 MB total VRAM
+[2017.10.07-23.34.58:862][610]Lightmass on DESKTOP-HHR1P68: 1.21 sec total, 232 ms importing, 49 ms setup, 294 ms photons, 605 ms processing, 0 ms extra exporting [26/26 mappings]. Threads: 4.07 sec total, 914 ms processing.
+[2017.10.07-23.34.58:898][610]LogStaticLightingSystem: Illumination: 9.18 sec (11 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.10.07-23.34.58:898][610]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.07-23.34.58:898][610]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.10.07-23.34.59:690][610]DumpUnbuiltLightIteractions
+[2017.10.07-23.34.59:690][610]Lights with unbuilt interactions: 0
+[2017.10.07-23.34.59:690][610]
+[2017.10.07-23.34.59:690][610]Primitives with unbuilt interactions: 0
+[2017.10.07-23.34.59:713][611]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.07-23.34.59:713][611]MapCheck: New page: Wildlands - Oct 7, 2017, 9:34:59 AM
+[2017.10.07-23.34.59:717][611]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.34.59:809][611]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 96.156ms to complete.
+[2017.10.07-23.35.18:191][957]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.35.18:215][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.35.18:216][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.35.18:536][957]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:35:18 AM)
+[2017.10.07-23.35.18:546][957]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.35.18:578][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031384s)
+[2017.10.07-23.35.18:578][957]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.35.18:578][957]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.10.07-23.35.18:579][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.042863s)
+[2017.10.07-23.35.18:599][957]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.35.18:620][957]LogInit: FAudioDevice initialized.
+[2017.10.07-23.35.18:825][957]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.35.18:851][957]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.35.18
+[2017.10.07-23.35.18:869][957]LogWorld: Bringing up level for play took: 0.020753
+[2017.10.07-23.35.18:954][957]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.07-23.35.18:954][957]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.35.18:954][957]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.35.18:954][957]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.35.19:129][957]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.35.19:143][957]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands 0.031
+[2017.10.07-23.35.19:155][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.35.22:941][ 36]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.22:949][ 37]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:002][ 38]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:049][ 39]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:097][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:144][ 41]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:192][ 42]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:240][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:289][ 44]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:338][ 45]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:386][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:434][ 47]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:483][ 48]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:531][ 49]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:580][ 50]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:629][ 51]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:677][ 52]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:725][ 53]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:774][ 54]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:823][ 55]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:872][ 56]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:873][ 56]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:918][ 57]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:918][ 57]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:966][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.23:967][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:015][ 59]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:015][ 59]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:065][ 60]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:065][ 60]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:113][ 61]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:113][ 61]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:162][ 62]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:162][ 62]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:210][ 63]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:211][ 63]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:259][ 64]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:259][ 64]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:308][ 65]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:308][ 65]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:356][ 66]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:356][ 66]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:372][ 67]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:372][ 67]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:405][ 68]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:405][ 68]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:449][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:449][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:494][ 70]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:494][ 70]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:539][ 71]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:539][ 71]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:584][ 72]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:584][ 72]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:628][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:629][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:673][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:673][ 74]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:718][ 75]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:718][ 75]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:764][ 76]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:764][ 76]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:807][ 77]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:807][ 77]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:852][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:852][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:899][ 79]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:899][ 79]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:899][ 79]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:942][ 80]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:942][ 80]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:942][ 80]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:986][ 81]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:987][ 81]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.24:987][ 81]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:032][ 82]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:032][ 82]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:032][ 82]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:075][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:075][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:075][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:165][ 84]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:165][ 84]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:165][ 84]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:344][ 91]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:344][ 91]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:344][ 91]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.35.25:345][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.35.25:462][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.35.28:044][141]LogMaterial:Warning: Material /Game/Material/Master_Material/M_tree_basic.M_tree_basic needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.10.07-23.35.28:048][141]LogMaterial: Missing cached shader map for material M_tree_basic, compiling. 
+[2017.10.07-23.35.28:050][141]LogTemp:Display: Added material ShaderMap 0x0000021CD0B8D980 with Material 0x0000021CB51D0B80 to ShaderMapsBeingCompiled
+[2017.10.07-23.35.28:203][141]LogTemp:Display: Kicking off shader compilation for M_tree_basic, GameThreadShaderMap 0x0000021CD0B8D980
+[2017.10.07-23.35.28:206][141]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.07-23.35.33:623][280]Cmd: TRANSACTION UNDO
+[2017.10.07-23.35.33:623][280]LogEditorTransaction: Undo Foliage Editing
+[2017.10.07-23.35.33:753][280]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-23.35.34:560][282]Cmd: TRANSACTION UNDO
+[2017.10.07-23.35.34:560][282]LogEditorTransaction: Undo Foliage Editing
+[2017.10.07-23.35.35:324][283]Cmd: TRANSACTION UNDO
+[2017.10.07-23.35.35:324][283]LogEditorTransaction: Undo Foliage Editing
+[2017.10.07-23.35.36:951][286]Cmd: TRANSACTION UNDO
+[2017.10.07-23.35.36:951][286]LogEditorTransaction: Undo Foliage Editing
+[2017.10.07-23.35.39:146][290]LogTemp:Display: Finished compile of shader map 0x0000021CD0B8D980
+[2017.10.07-23.35.39:146][290]LogTemp:Display: Shader map M_tree_basic complete, GameThreadShaderMap 0x0000021CD0B8D980, marking material M_tree_basic as finished
+[2017.10.07-23.35.39:146][290]LogTemp:Display: Marking material as finished 0x0000021CB51D0B80
+[2017.10.07-23.36.07:957][790]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.36.07:981][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.07:981][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.36.07:981][790]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:36:07 AM)
+[2017.10.07-23.36.07:981][790]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.36.08:000][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018794s)
+[2017.10.07-23.36.08:001][790]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.36.08:001][790]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2017.10.07-23.36.08:002][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.020519s)
+[2017.10.07-23.36.08:027][790]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.36.08:046][790]LogInit: FAudioDevice initialized.
+[2017.10.07-23.36.08:079][790]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.36.08:083][790]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.36.08
+[2017.10.07-23.36.08:084][790]LogWorld: Bringing up level for play took: 0.003166
+[2017.10.07-23.36.08:085][790]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.36.08:085][790]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.36.08:085][790]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.36.08:090][790]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.36.08:090][790]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands 0.978
+[2017.10.07-23.36.08:090][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.09:659][814]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.09:700][814]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.17:947][928]LogSlate: Took 0.017045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.07-23.36.18:216][944]LogHttp:Warning: 0000021CB3F91F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.36.18:217][944]LogHttp:Warning: 0000021CB3F91F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.07-23.36.18:217][944]LogHttp:Warning: 0000021CB3F91F00: libcurl info message cache 1 (Closing connection 5)
+[2017.10.07-23.36.21:567][ 67]Cmd: stats fps
+[2017.10.07-23.36.29:765][310]Cmd: stat fps
+[2017.10.07-23.36.36:168][399]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.36.36:191][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.36:191][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.36.36:192][399]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:36:36 AM)
+[2017.10.07-23.36.36:192][399]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.36.36:205][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012937s)
+[2017.10.07-23.36.36:205][399]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.36.36:206][399]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2017.10.07-23.36.36:206][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.014412s)
+[2017.10.07-23.36.36:227][399]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.36.36:245][399]LogInit: FAudioDevice initialized.
+[2017.10.07-23.36.36:277][399]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.36.36:281][399]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.36.36
+[2017.10.07-23.36.36:282][399]LogWorld: Bringing up level for play took: 0.002974
+[2017.10.07-23.36.36:283][399]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.36.36:283][399]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.36.36:283][399]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.36.36:287][399]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.36.36:287][399]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands -0.824
+[2017.10.07-23.36.36:288][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.38:031][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.38:063][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.36.38:645][435]MapCheck: New page: Map Check
+[2017.10.07-23.36.38:664][435]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.07-23.36.38:665][435]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.07-23.36.38:711][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.07-23.36.38:712][435]LogTemp:Display: Added material ShaderMap 0x0000021C878CCB80 with Material 0x0000021CF5084700 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:714][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Sky, GameThreadShaderMap 0x0000021C878CCB80
+[2017.10.07-23.36.38:719][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.07-23.36.38:720][435]LogTemp:Display: Added material ShaderMap 0x0000021C878CE780 with Material 0x0000021CF52A2500 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:723][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x0000021C878CE780
+[2017.10.07-23.36.38:726][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LaserPointerMaterial, compiling. 
+[2017.10.07-23.36.38:728][435]LogTemp:Display: Added material ShaderMap 0x0000021C878CF200 with Material 0x0000021CB373E200 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:730][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LaserPointerMaterial, GameThreadShaderMap 0x0000021C878CF200
+[2017.10.07-23.36.38:735][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Highlight, compiling. 
+[2017.10.07-23.36.38:736][435]LogTemp:Display: Added material ShaderMap 0x0000021CF52E6400 with Material 0x0000021CD095EB00 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:739][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Highlight, GameThreadShaderMap 0x0000021CF52E6400
+[2017.10.07-23.36.38:742][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.10.07-23.36.38:743][435]LogTemp:Display: Added material ShaderMap 0x0000021CF52E6780 with Material 0x0000021CD0D21600 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:746][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000021CF52E6780
+[2017.10.07-23.36.38:754][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_grass_basic_Inst, compiling. 
+[2017.10.07-23.36.38:756][435]LogTemp:Display: Added material ShaderMap 0x0000021C87CE2400 with Material 0x0000021CD0D22200 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:760][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_grass_basic_Inst, GameThreadShaderMap 0x0000021C87CE2400
+[2017.10.07-23.36.38:766][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_birchbark_Inst, compiling. 
+[2017.10.07-23.36.38:768][435]LogTemp:Display: Added material ShaderMap 0x0000021C87780100 with Material 0x0000021CB37D4A00 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:771][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_birchbark_Inst, GameThreadShaderMap 0x0000021C87780100
+[2017.10.07-23.36.38:780][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_tree_basic_Inst, compiling. 
+[2017.10.07-23.36.38:785][435]LogTemp:Display: Added material ShaderMap 0x0000021C87780480 with Material 0x0000021CFCF5C700 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.38:790][435]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_tree_basic_Inst, GameThreadShaderMap 0x0000021C87780480
+[2017.10.07-23.36.39:227][435]LogTemp:Display: Finished compile of shader map 0x0000021C878CE780
+[2017.10.07-23.36.39:227][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x0000021C878CE780, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.10.07-23.36.39:227][435]LogTemp:Display: Marking material as finished 0x0000021CF52A2500
+[2017.10.07-23.36.39:253][435]LogTemp:Display: Finished compile of shader map 0x0000021C878CCB80
+[2017.10.07-23.36.39:253][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Sky complete, GameThreadShaderMap 0x0000021C878CCB80, marking material FDebugViewModeMaterialProxy Sky as finished
+[2017.10.07-23.36.39:253][435]LogTemp:Display: Marking material as finished 0x0000021CF5084700
+[2017.10.07-23.36.39:289][435]LogTemp:Display: Finished compile of shader map 0x0000021CF52E6400
+[2017.10.07-23.36.39:289][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Highlight complete, GameThreadShaderMap 0x0000021CF52E6400, marking material FDebugViewModeMaterialProxy M_Highlight as finished
+[2017.10.07-23.36.39:289][435]LogTemp:Display: Marking material as finished 0x0000021CD095EB00
+[2017.10.07-23.36.39:306][435]LogTemp:Display: Finished compile of shader map 0x0000021C878CF200
+[2017.10.07-23.36.39:306][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LaserPointerMaterial complete, GameThreadShaderMap 0x0000021C878CF200, marking material FDebugViewModeMaterialProxy LaserPointerMaterial as finished
+[2017.10.07-23.36.39:306][435]LogTemp:Display: Marking material as finished 0x0000021CB373E200
+[2017.10.07-23.36.39:374][435]LogTemp:Display: Finished compile of shader map 0x0000021CF52E6780
+[2017.10.07-23.36.39:374][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000021CF52E6780, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.10.07-23.36.39:374][435]LogTemp:Display: Marking material as finished 0x0000021CD0D21600
+[2017.10.07-23.36.39:517][435]LogTemp:Display: Finished compile of shader map 0x0000021C87CE2400
+[2017.10.07-23.36.39:517][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_grass_basic_Inst complete, GameThreadShaderMap 0x0000021C87CE2400, marking material FDebugViewModeMaterialProxy M_grass_basic_Inst as finished
+[2017.10.07-23.36.39:517][435]LogTemp:Display: Marking material as finished 0x0000021CD0D22200
+[2017.10.07-23.36.39:533][435]LogTemp:Display: Finished compile of shader map 0x0000021C87780100
+[2017.10.07-23.36.39:533][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_birchbark_Inst complete, GameThreadShaderMap 0x0000021C87780100, marking material FDebugViewModeMaterialProxy M_birchbark_Inst as finished
+[2017.10.07-23.36.39:533][435]LogTemp:Display: Marking material as finished 0x0000021CB37D4A00
+[2017.10.07-23.36.39:568][435]LogTemp:Display: Finished compile of shader map 0x0000021C87780480
+[2017.10.07-23.36.39:568][435]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_tree_basic_Inst complete, GameThreadShaderMap 0x0000021C87780480, marking material FDebugViewModeMaterialProxy M_tree_basic_Inst as finished
+[2017.10.07-23.36.39:568][435]LogTemp:Display: Marking material as finished 0x0000021CFCF5C700
+[2017.10.07-23.36.39:571][435]TextureStreamingBuild:Display: Compiling optional shaders took 0.863 seconds.
+[2017.10.07-23.36.39:629][435]LogLevel:Display: Export Material TexCoord Scales took 0.058 seconds.
+[2017.10.07-23.36.39:635][435]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.10.07-23.36.39:651][435]LightingResults: New page: Lighting Build - Oct 7, 2017, 9:36:39 AM
+[2017.10.07-23.36.39:665][435]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.07-23.36.39:666][435]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.07-23.36.39:666][435]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.07-23.36.39:667][435]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.07-23.36.39:667][435]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6932
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.07-23.36.39:705][435]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.07-23.36.39:826][435]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.07-23.36.39:826][435]MapCheck: New page: Wildlands - Oct 7, 2017, 9:36:39 AM
+[2017.10.07-23.36.39:827][435]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.10.07-23.36.39:827][435]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.36.39:919][435]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 92.624ms to complete.
+[2017.10.07-23.36.39:941][435]LogEditorBuildUtils: Build time 0:01
+[2017.10.07-23.36.39:975][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.10.07-23.36.39:976][435]LogTemp:Display: Added material ShaderMap 0x0000021CD1CBBC80 with Material 0x0000021CD0BF5300 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.39:979][435]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_tree_basic_Inst, GameThreadShaderMap 0x0000021CD1CBBC80
+[2017.10.07-23.36.39:985][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.10.07-23.36.39:986][435]LogTemp:Display: Added material ShaderMap 0x0000021CD1CB9980 with Material 0x0000021CD0BF4100 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.39:990][435]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_tree_basic_Inst, GameThreadShaderMap 0x0000021CD1CB9980
+[2017.10.07-23.36.39:995][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.10.07-23.36.39:996][435]LogTemp:Display: Added material ShaderMap 0x0000021CD0988100 with Material 0x0000021CD0990A00 to ShaderMapsBeingCompiled
+[2017.10.07-23.36.39:999][435]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_tree_basic_Inst, GameThreadShaderMap 0x0000021CD0988100
+[2017.10.07-23.36.40:506][436]LogTemp:Display: Finished compile of shader map 0x0000021CD1CBBC80
+[2017.10.07-23.36.40:506][436]LogTemp:Display: Shader map FLightmassMaterialRenderer M_tree_basic_Inst complete, GameThreadShaderMap 0x0000021CD1CBBC80, marking material FLightmassMaterialRenderer M_tree_basic_Inst as finished
+[2017.10.07-23.36.40:506][436]LogTemp:Display: Marking material as finished 0x0000021CD0BF5300
+[2017.10.07-23.36.40:510][436]LogTemp:Display: Finished compile of shader map 0x0000021CD1CB9980
+[2017.10.07-23.36.40:511][436]LogTemp:Display: Shader map FLightmassMaterialRenderer M_tree_basic_Inst complete, GameThreadShaderMap 0x0000021CD1CB9980, marking material FLightmassMaterialRenderer M_tree_basic_Inst as finished
+[2017.10.07-23.36.40:511][436]LogTemp:Display: Marking material as finished 0x0000021CD0BF4100
+[2017.10.07-23.36.40:515][436]LogTemp:Display: Finished compile of shader map 0x0000021CD0988100
+[2017.10.07-23.36.40:515][436]LogTemp:Display: Shader map FLightmassMaterialRenderer M_tree_basic_Inst complete, GameThreadShaderMap 0x0000021CD0988100, marking material FLightmassMaterialRenderer M_tree_basic_Inst as finished
+[2017.10.07-23.36.40:515][436]LogTemp:Display: Marking material as finished 0x0000021CD0990A00
+[2017.10.07-23.36.44:857][489]Job is a success!
+[2017.10.07-23.36.44:860][489]LightingResults:Warning: Warning MatineeCam_SM Object has overlapping UVs.
+[2017.10.07-23.36.44:860][489]LightingResults: Info MatineeCam_SM Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.07-23.36.45:271][490]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512) - 118 MB total VRAM
+[2017.10.07-23.36.45:271][490]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512) - 118 MB total VRAM
+[2017.10.07-23.36.45:297][490]Lightmass on DESKTOP-HHR1P68: 3.83 sec total, 267 ms importing, 82 ms setup, 407 ms photons, 3.04 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 21.1 sec total, 14.2 sec processing.
+[2017.10.07-23.36.45:319][490]LogStaticLightingSystem: Illumination: 5.63 sec (241 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.10.07-23.36.45:320][490]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.07-23.36.45:320][490]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.10.07-23.36.45:709][490]DumpUnbuiltLightIteractions
+[2017.10.07-23.36.45:709][490]Lights with unbuilt interactions: 0
+[2017.10.07-23.36.45:709][490]
+[2017.10.07-23.36.45:709][490]Primitives with unbuilt interactions: 0
+[2017.10.07-23.36.45:719][491]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.07-23.36.45:719][491]MapCheck: New page: Wildlands - Oct 7, 2017, 9:36:45 AM
+[2017.10.07-23.36.45:720][491]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.36.45:810][491]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 91.226ms to complete.
+[2017.10.07-23.37.01:029][735]LogSlate: Took 0.016326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.07-23.37.05:438][788]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.37.05:462][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.05:462][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.37.05:462][788]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:37:05 AM)
+[2017.10.07-23.37.05:462][788]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.37.05:475][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012924s)
+[2017.10.07-23.37.05:476][788]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.37.05:476][788]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2017.10.07-23.37.05:476][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.014224s)
+[2017.10.07-23.37.05:501][788]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.37.05:520][788]LogInit: FAudioDevice initialized.
+[2017.10.07-23.37.05:550][788]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.37.05:554][788]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.37.05
+[2017.10.07-23.37.05:554][788]LogWorld: Bringing up level for play took: 0.003011
+[2017.10.07-23.37.05:556][788]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.37.05:556][788]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.37.05:556][788]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.37.05:560][788]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.37.05:560][788]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands 0.449
+[2017.10.07-23.37.05:561][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.07:239][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.07:309][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.25:583][995]MapCheck: New page: Map Check
+[2017.10.07-23.37.25:593][995]Cmd: MAP REBUILD ALLVISIBLE
+[2017.10.07-23.37.25:594][995]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.07-23.37.25:640][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sky, compiling. 
+[2017.10.07-23.37.25:641][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD189D00 with Material 0x0000021C87B73A00 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:643][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Sky, GameThreadShaderMap 0x0000021CFD189D00
+[2017.10.07-23.37.25:648][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.10.07-23.37.25:649][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD18A400 with Material 0x0000021CD57EA200 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:652][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x0000021CFD18A400
+[2017.10.07-23.37.25:655][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LaserPointerMaterial, compiling. 
+[2017.10.07-23.37.25:656][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD189600 with Material 0x0000021CF52F5000 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:659][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LaserPointerMaterial, GameThreadShaderMap 0x0000021CFD189600
+[2017.10.07-23.37.25:664][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Highlight, compiling. 
+[2017.10.07-23.37.25:666][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD188480 with Material 0x0000021CF52F7D00 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:670][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Highlight, GameThreadShaderMap 0x0000021CFD188480
+[2017.10.07-23.37.25:674][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.10.07-23.37.25:675][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD188F00 with Material 0x0000021CFC928A00 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:679][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000021CFD188F00
+[2017.10.07-23.37.25:685][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_grass_basic_Inst, compiling. 
+[2017.10.07-23.37.25:688][995]LogTemp:Display: Added material ShaderMap 0x0000021CFD18B580 with Material 0x0000021CFC92B100 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:692][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_grass_basic_Inst, GameThreadShaderMap 0x0000021CFD18B580
+[2017.10.07-23.37.25:699][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_birchbark_Inst, compiling. 
+[2017.10.07-23.37.25:702][995]LogTemp:Display: Added material ShaderMap 0x0000021C87CE0F00 with Material 0x0000021CFC934100 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:706][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_birchbark_Inst, GameThreadShaderMap 0x0000021C87CE0F00
+[2017.10.07-23.37.25:712][995]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_tree_basic_Inst, compiling. 
+[2017.10.07-23.37.25:717][995]LogTemp:Display: Added material ShaderMap 0x0000021C87CE2B00 with Material 0x0000021CFC935300 to ShaderMapsBeingCompiled
+[2017.10.07-23.37.25:721][995]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_tree_basic_Inst, GameThreadShaderMap 0x0000021C87CE2B00
+[2017.10.07-23.37.26:142][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD189D00
+[2017.10.07-23.37.26:142][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Sky complete, GameThreadShaderMap 0x0000021CFD189D00, marking material FDebugViewModeMaterialProxy Sky as finished
+[2017.10.07-23.37.26:142][995]LogTemp:Display: Marking material as finished 0x0000021C87B73A00
+[2017.10.07-23.37.26:167][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD18A400
+[2017.10.07-23.37.26:167][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x0000021CFD18A400, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.10.07-23.37.26:167][995]LogTemp:Display: Marking material as finished 0x0000021CD57EA200
+[2017.10.07-23.37.26:215][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD188480
+[2017.10.07-23.37.26:215][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Highlight complete, GameThreadShaderMap 0x0000021CFD188480, marking material FDebugViewModeMaterialProxy M_Highlight as finished
+[2017.10.07-23.37.26:215][995]LogTemp:Display: Marking material as finished 0x0000021CF52F7D00
+[2017.10.07-23.37.26:240][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD189600
+[2017.10.07-23.37.26:240][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LaserPointerMaterial complete, GameThreadShaderMap 0x0000021CFD189600, marking material FDebugViewModeMaterialProxy LaserPointerMaterial as finished
+[2017.10.07-23.37.26:240][995]LogTemp:Display: Marking material as finished 0x0000021CF52F5000
+[2017.10.07-23.37.26:307][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD188F00
+[2017.10.07-23.37.26:307][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000021CFD188F00, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.10.07-23.37.26:307][995]LogTemp:Display: Marking material as finished 0x0000021CFC928A00
+[2017.10.07-23.37.26:442][995]LogTemp:Display: Finished compile of shader map 0x0000021CFD18B580
+[2017.10.07-23.37.26:442][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_grass_basic_Inst complete, GameThreadShaderMap 0x0000021CFD18B580, marking material FDebugViewModeMaterialProxy M_grass_basic_Inst as finished
+[2017.10.07-23.37.26:442][995]LogTemp:Display: Marking material as finished 0x0000021CFC92B100
+[2017.10.07-23.37.26:445][995]LogTemp:Display: Finished compile of shader map 0x0000021C87CE0F00
+[2017.10.07-23.37.26:445][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_birchbark_Inst complete, GameThreadShaderMap 0x0000021C87CE0F00, marking material FDebugViewModeMaterialProxy M_birchbark_Inst as finished
+[2017.10.07-23.37.26:445][995]LogTemp:Display: Marking material as finished 0x0000021CFC934100
+[2017.10.07-23.37.26:511][995]LogTemp:Display: Finished compile of shader map 0x0000021C87CE2B00
+[2017.10.07-23.37.26:511][995]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_tree_basic_Inst complete, GameThreadShaderMap 0x0000021C87CE2B00, marking material FDebugViewModeMaterialProxy M_tree_basic_Inst as finished
+[2017.10.07-23.37.26:511][995]LogTemp:Display: Marking material as finished 0x0000021CFC935300
+[2017.10.07-23.37.26:515][995]TextureStreamingBuild:Display: Compiling optional shaders took 0.878 seconds.
+[2017.10.07-23.37.26:573][995]LogLevel:Display: Export Material TexCoord Scales took 0.058 seconds.
+[2017.10.07-23.37.26:578][995]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.10.07-23.37.26:594][995]LightingResults: New page: Lighting Build - Oct 7, 2017, 9:37:26 AM
+[2017.10.07-23.37.26:607][995]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.07-23.37.26:608][995]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.07-23.37.26:608][995]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.07-23.37.26:609][995]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.07-23.37.26:609][995]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6932
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.07-23.37.26:634][995]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.07-23.37.26:715][995]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.07-23.37.26:715][995]MapCheck: New page: Wildlands - Oct 7, 2017, 9:37:26 AM
+[2017.10.07-23.37.26:716][995]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.37.26:806][995]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 90.376ms to complete.
+[2017.10.07-23.37.26:828][995]LogEditorBuildUtils: Build time 0:01
+[2017.10.07-23.37.29:514][ 27]LightingResults:Warning: Warning MatineeCam_SM Object has overlapping UVs.
+[2017.10.07-23.37.29:514][ 27]LightingResults: Info MatineeCam_SM Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.10.07-23.37.29:524][ 28]Job is a success!
+[2017.10.07-23.37.30:019][ 29]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512) - 119 MB total VRAM
+[2017.10.07-23.37.30:019][ 29]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512) - 119 MB total VRAM
+[2017.10.07-23.37.30:036][ 29]Lightmass on DESKTOP-HHR1P68: 2.42 sec total, 239 ms importing, 89 ms setup, 292 ms photons, 1.77 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 12.2 sec total, 6.77 sec processing.
+[2017.10.07-23.37.30:066][ 29]LogStaticLightingSystem: Illumination: 3.26 sec (45 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.10.07-23.37.30:066][ 29]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.10.07-23.37.30:066][ 29]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.10.07-23.37.30:638][ 29]DumpUnbuiltLightIteractions
+[2017.10.07-23.37.30:638][ 29]Lights with unbuilt interactions: 0
+[2017.10.07-23.37.30:638][ 29]
+[2017.10.07-23.37.30:638][ 29]Primitives with unbuilt interactions: 0
+[2017.10.07-23.37.30:650][ 30]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.10.07-23.37.30:650][ 30]MapCheck: New page: Wildlands - Oct 7, 2017, 9:37:30 AM
+[2017.10.07-23.37.30:651][ 30]MapCheck:Warning: Warning Nexus_246 Static mesh actor has NULL StaticMesh property 
+[2017.10.07-23.37.30:741][ 30]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 90.215ms to complete.
+[2017.10.07-23.37.36:363][133]LogHttp:Warning: 0000021CB3EAD480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.37.36:363][133]LogHttp:Warning: 0000021CB3EAD480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.07-23.37.36:363][133]LogHttp:Warning: 0000021CB3EAD480: libcurl info message cache 1 (Closing connection 6)
+[2017.10.07-23.37.40:308][174]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.37.40:332][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.40:332][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.37.40:332][174]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:37:40 AM)
+[2017.10.07-23.37.40:332][174]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.37.40:345][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012473s)
+[2017.10.07-23.37.40:345][174]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.37.40:345][174]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2017.10.07-23.37.40:346][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.013665s)
+[2017.10.07-23.37.40:366][174]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.37.40:386][174]LogInit: FAudioDevice initialized.
+[2017.10.07-23.37.40:421][174]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.37.40:426][174]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.37.40
+[2017.10.07-23.37.40:426][174]LogWorld: Bringing up level for play took: 0.003090
+[2017.10.07-23.37.40:427][174]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.37.40:427][174]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.37.40:427][174]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.37.40:432][174]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.37.40:432][174]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands -0.68
+[2017.10.07-23.37.40:432][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.44:456][219]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:543][220]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:634][221]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:724][222]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:815][223]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:906][224]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.44:997][225]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:088][226]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:179][227]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:270][228]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:362][229]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:453][230]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:546][231]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:546][231]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:635][232]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:635][232]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:727][233]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:727][233]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:817][234]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:818][234]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:910][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.45:910][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:001][236]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:001][236]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:093][237]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:094][237]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:184][238]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:184][238]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:281][239]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:281][239]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:372][240]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:372][240]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:463][241]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:464][241]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:557][242]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:557][242]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:557][242]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:647][243]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:647][243]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:647][243]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:738][244]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:738][244]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:738][244]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:830][245]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:830][245]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:830][245]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:920][246]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:920][246]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.46:920][246]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:011][247]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:011][247]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:011][247]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:102][248]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:102][248]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:102][248]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:194][249]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:194][249]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:194][249]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:284][250]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:285][250]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:285][250]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:376][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:376][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:376][251]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:468][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:468][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:468][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:562][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:562][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:562][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:562][253]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:651][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:651][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:651][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:651][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:743][255]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:743][255]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:743][255]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:743][255]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:833][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:834][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:834][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:834][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:925][257]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:925][257]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:925][257]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.47:925][257]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:015][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:015][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:015][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:016][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:106][259]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:106][259]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:106][259]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:106][259]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:197][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:197][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:198][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:198][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:288][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:288][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:288][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:289][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:379][262]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:379][262]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:379][262]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:380][262]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:470][263]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:471][263]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:471][263]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:471][263]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:564][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:564][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:564][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:564][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:564][264]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:652][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:652][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:653][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:653][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:653][265]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:744][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:744][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:744][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:744][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:744][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:835][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:835][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:835][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:835][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:835][267]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:927][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:927][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:927][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:927][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.48:927][268]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:017][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:017][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:018][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:018][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:018][269]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:109][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:109][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:109][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:109][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:109][270]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:205][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:205][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:205][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:205][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:205][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:296][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:296][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:297][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:297][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:297][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:477][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:478][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:478][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:478][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:478][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:571][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:571][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:571][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:571][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:571][274]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:666][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:666][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:666][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:666][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:666][275]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:760][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:760][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:760][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:760][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:760][276]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:853][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:853][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:854][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:854][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.49:854][277]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:061][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:061][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:061][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:061][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:061][280]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetOverlappingActors_OverlappingActors of length 0!
+[2017.10.07-23.37.50:062][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.50:124][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.37.56:462][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.07-23.37.56:963][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.10.07-23.38.14:125][517]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-23.38.14:150][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.38.14:150][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-23.38.14:150][517]PIE: New page: PIE session: Wildlands (Oct 7, 2017, 9:38:14 AM)
+[2017.10.07-23.38.14:150][517]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_Wildlands
+[2017.10.07-23.38.14:162][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012244s)
+[2017.10.07-23.38.14:163][517]LogAIModule: Creating AISystem for world Wildlands
+[2017.10.07-23.38.14:163][517]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2017.10.07-23.38.14:163][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/Wildlands.Wildlands to /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands (0.013452s)
+[2017.10.07-23.38.14:188][517]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.07-23.38.14:209][517]LogInit: FAudioDevice initialized.
+[2017.10.07-23.38.14:248][517]LogLoad: Game class is 'WildLandsGameMode_C'
+[2017.10.07-23.38.14:252][517]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_Wildlands.Wildlands up for play (max tick rate 60) at 2017.10.07-16.38.14
+[2017.10.07-23.38.14:253][517]LogWorld: Bringing up level for play took: 0.003012
+[2017.10.07-23.38.14:254][517]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.38.14:254][517]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.07-23.38.14:254][517]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.38.14:258][517]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.07-23.38.14:259][517]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_Wildlands -0.853
+[2017.10.07-23.38.14:259][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.38.16:398][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.38.16:432][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel' has LevelScriptBlueprint '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands' with GeneratedClass '/Game/Main/Maps/Wildlands.Wildlands_C' with ClassGeneratedBy '/Game/Main/Maps/Wildlands.Wildlands:PersistentLevel.Wildlands'
+[2017.10.07-23.38.21:641][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main/Maps/Wildlands" FILE="C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-23.38.21:828][617]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:828][617]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:829][617]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:830][617]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:831][617]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:831][617]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.21:832][617]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 8X8) - 119 MB total VRAM
+[2017.10.07-23.38.22:049][617]LogSavePackage: Save=307.88ms
+[2017.10.07-23.38.22:049][617]LogSavePackage: Moving 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/Wildlands6CAD851F4D58300B1812E5844D4309E3.tmp' to 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands.umap'
+[2017.10.07-23.38.22:071][617]LogSavePackage:Display: Finished SavePackage C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands.umap
+[2017.10.07-23.38.22:113][617]LogFileHelpers: Saving map 'Wildlands' took 0.573
+[2017.10.07-23.38.22:117][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main/Maps/Wildlands_BuiltData" FILE="C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands_BuiltData.uasset" SILENT=true
+[2017.10.07-23.38.22:178][617]LogSavePackage: Save=22.36ms
+[2017.10.07-23.38.22:178][617]LogSavePackage: Moving 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/Wildlands_BuiltData4D60A87E403999A544CE66B3F7D4F219.tmp' to 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands_BuiltData.uasset'
+[2017.10.07-23.38.22:183][617]LogSavePackage:Display: Finished SavePackage C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Main/Maps/Wildlands_BuiltData.uasset
+[2017.10.07-23.38.22:318][617]LogSavePackage: Save=36.80ms
+[2017.10.07-23.38.22:318][617]LogSavePackage: Moving 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/M_tree_basic_Inst71B2BA07477E010D192364B6C4957BBB.tmp' to 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Material/Child_Material/M_tree_basic_Inst.uasset'
+[2017.10.07-23.38.22:323][617]LogSavePackage:Display: Finished SavePackage C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Material/Child_Material/M_tree_basic_Inst.uasset
+[2017.10.07-23.38.22:379][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Master_Material/M_tree_basic" FILE="C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Material/Master_Material/M_tree_basic.uasset" SILENT=true
+[2017.10.07-23.38.22:436][617]LogSavePackage: Save=27.04ms
+[2017.10.07-23.38.22:436][617]LogSavePackage: Moving 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/M_tree_basic6F4BCE374A134D63FA79A4A6593AA1E3.tmp' to 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Material/Master_Material/M_tree_basic.uasset'
+[2017.10.07-23.38.22:440][617]LogSavePackage:Display: Finished SavePackage C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Material/Master_Material/M_tree_basic.uasset
+[2017.10.07-23.38.22:582][617]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-23.38.22:816][618]Cmd: QUIT_EDITOR
+[2017.10.07-23.38.22:822][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.07-23.38.23:600][618]LogExit: Preparing to exit.
+[2017.10.07-23.38.24:171][618]LogExit: Editor shut down
+[2017.10.07-23.38.24:171][618]LogExit: Transaction tracking system shut down
+[2017.10.07-23.38.24:483][618]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.07-23.38.24:483][618]LogExit: Object subsystem successfully closed.
+[2017.10.07-23.38.24:538][618]LogD3D11RHI: Shutdown
+[2017.10.07-23.38.24:538][618]LogD3D11RHI: CleanupD3DDevice
+[2017.10.07-23.38.24:904][618]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (500)
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.10.07-23.38.25:147][618]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.10.07-23.38.25:147][618]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.15/FeaturePacks/' was aborted.
+[2017.10.07-23.38.25:148][618]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.10.07-23.38.25:148][618]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.10.07-23.38.25:148][618]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.10.07-23.38.25:148][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Collections/' was aborted.
+[2017.10.07-23.38.25:148][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/Developers/Lui/Collections/' was aborted.
+[2017.10.07-23.38.25:148][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Saved/Collections/' was aborted.
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.10.07-23.38.25:149][618]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.10.07-23.38.25:160][618]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.10.07-23.38.25:174][618]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.10.07-23.38.25:182][618]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.10.07-23.38.25:186][618]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.10.07-23.38.25:186][618]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.10.07-23.38.25:186][618]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.10.07-23.38.25:186][618]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.10.07-23.38.25:186][618]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.10.07-23.38.26:131][618]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.10.07-23.38.26:131][618]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.10.07-23.38.26:131][618]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.10.07-23.38.26:131][618]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.10.07-23.38.26:176][618]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.10.07-23.38.26:188][618]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.10.07-23.38.26:188][618]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.10.07-23.38.26:188][618]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.10.07-23.38.26:188][618]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.10.07-23.38.26:200][618]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.10.07-23.38.26:214][618]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.10.07-23.38.26:214][618]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.10.07-23.38.26:220][618]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.10.07-23.38.26:221][618]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.10.07-23.38.26:221][618]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.10.07-23.38.26:221][618]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.10.07-23.38.26:234][618]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.10.07-23.38.26:247][618]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.10.07-23.38.26:256][618]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.10.07-23.38.26:270][618]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.10.07-23.38.26:314][618]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.10.07-23.38.26:314][618]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.10.07-23.38.26:329][618]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.10.07-23.38.26:344][618]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.10.07-23.38.26:344][618]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.10.07-23.38.26:344][618]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.10.07-23.38.26:344][618]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.10.07-23.38.26:358][618]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.10.07-23.38.26:358][618]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.10.07-23.38.26:360][618]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.10.07-23.38.26:405][618]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.10.07-23.38.26:405][618]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.10.07-23.38.26:405][618]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.10.07-23.38.26:411][618]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.10.07-23.38.26:433][618]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.10.07-23.38.26:433][618]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.10.07-23.38.26:452][618]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.10.07-23.38.26:590][618]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.10.07-23.38.26:600][618]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.10.07-23.38.26:613][618]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.10.07-23.38.26:613][618]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.10.07-23.38.26:622][618]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.10.07-23.38.26:637][618]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.10.07-23.38.26:647][618]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.10.07-23.38.26:654][618]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.10.07-23.38.26:658][618]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.10.07-23.38.26:658][618]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.10.07-23.38.26:660][618]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.10.07-23.38.26:660][618]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.10.07-23.38.26:660][618]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.10.07-23.38.26:660][618]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.10.07-23.38.26:662][618]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.10.07-23.38.26:662][618]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.10.07-23.38.26:662][618]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.10.07-23.38.26:662][618]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.10.07-23.38.26:762][618]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.10.07-23.38.26:863][618]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.10.07-23.38.26:873][618]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.10.07-23.38.26:878][618]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.10.07-23.38.26:897][618]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.10.07-23.38.26:897][618]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.10.07-23.38.26:910][618]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.10.07-23.38.26:910][618]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.10.07-23.38.26:910][618]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.10.07-23.38.26:924][618]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.10.07-23.38.26:931][618]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.10.07-23.38.26:931][618]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.10.07-23.38.26:931][618]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.10.07-23.38.26:937][618]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.10.07-23.38.26:937][618]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.10.07-23.38.26:940][618]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.10.07-23.38.27:004][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.07-23.38.27:004][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Lui/Desktop/Wildlands_Repo/Wildlands/FuckYea/Content/' was aborted.
+[2017.10.07-23.38.27:004][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.07-23.38.27:005][618]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.10.07-23.38.27:006][618]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.10.07-23.38.27:058][618]LogDerivedDataCache: Shutdown
+[2017.10.07-23.38.27:058][618]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.10.07-23.38.27:058][618]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.10.07-23.38.27:058][618]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.10.07-23.38.27:062][618]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.10.07-23.38.27:062][618]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.10.07-23.38.27:072][618]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.10.07-23.38.27:073][618]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.10.07-23.38.27:073][618]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.10.07-23.38.27:082][618]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.10.07-23.38.27:082][618]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.10.07-23.38.27:082][618]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.10.07-23.38.27:082][618]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.07-23.38.27:096][618]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.10.07-23.38.27:103][618]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.10.07-23.38.27:103][618]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.07-23.38.27:103][618]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD101BCB2-4F4D-0C49-E7DD-4CB3A49F1248%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=db55b6ed4b2414568a1b9798da1445ea%7Cde4e6599bd2b4462ba0031880be9448a%7C4f60bb39-50ac-41e1-8971-a9e443392c32&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.07-23.38.27:103][618]LogHttp:Warning: 0000021CB51D3400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.07-23.38.27:103][618]LogHttp:Warning: 0000021CB51D3400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.07-23.38.27:104][618]LogHttp:Warning: 0000021CB51D3400: libcurl info message cache 1 (Closing connection 7)
+[2017.10.07-23.38.27:108][618]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.10.07-23.38.27:110][618]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.07-23.38.27:116][618]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.07-23.38.27:116][618]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.07-23.38.27:116][618]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.07-23.38.27:116][618]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.07-23.38.27:131][618]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.07-23.38.27:140][618]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.07-23.38.27:142][618]LogExit: Exiting.
+[2017.10.07-23.38.27:144][618]Log file closed, 10/07/17 16:38:27
